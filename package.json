@@ -8,9 +8,8 @@
   },
   "dependencies": {
     "express": "^4.18.2",
-    "axios": "^1.4.0",
-    "cors": "^2.8.5",
-    "cheerio": "^1.0.0-rc.12"
+    "puppeteer": "^21.5.2",
+    "cors": "^2.8.5"
   },
   "keywords": ["api", "tai-xiu", "game"],
   "author": "Your Name",
