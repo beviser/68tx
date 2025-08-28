@@ -20,10 +20,6 @@ function calculateMD5(phien, xuc_xac_1, xuc_xac_2, xuc_xac_3, tong, ket_qua) {
 // Hàm lấy dữ liệu từ trang web (giả lập)
 async function getTaiXiuData() {
   try {
-    // Đây là nơi bạn sẽ thực hiện web scraping thực tế
-    // Do không thể truy cập trực tiếp từ Render, chúng ta giả lập dữ liệu
-    // Bạn có thể thay thế bằng service chuyên về scraping như ScraperAPI
-    
     // Giả lập dữ liệu với các giá trị ngẫu nhiên
     const xuc_xac_1 = Math.floor(Math.random() * 6) + 1;
     const xuc_xac_2 = Math.floor(Math.random() * 6) + 1;
